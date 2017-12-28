@@ -39,16 +39,19 @@
     default: "80"
     required: true
     type: "string"
+  - variable: "KIBANA_URL"
+    label: "Kibana URL"
+    description: "Your native kibana ui URL"
+    required: true
+    type: "string"
+  - variable: "GRAFANA_URL"
+    label: "Grafana Port"
+    description: "Your native grafana ui URL"
+    required: true
+    type: "string"
 
 asean-ui:
   scale: 1
-  health_check:
-    port: 3001
-    interval: 5000
-    unhealthy_threshold: 3
-    request_line: ''
-    healthy_threshold: 2
-    response_timeout: 5000
   start_on_create: true
   metadata:
     rancher_ip: ${RANCHER_SERVER_IP}
@@ -57,3 +60,5 @@ asean-ui:
     alert_port: ${ALERT_PORT}
     harbor_ip: ${HARBOR_IP}
     harbor_port: ${HARBOR_PORT}
+    grafana_url: ${GRAFANA_URL}
+    kibana_url: ${KIBANA_URL}

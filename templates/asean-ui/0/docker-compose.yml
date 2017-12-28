@@ -3,7 +3,7 @@ services:
   asean-ui:
     tty: true
     stdin_open: true
-    image: registry.cn-hangzhou.aliyuncs.com/vimniky/asean-ui:v0.0.6
+    image: registry.cn-hangzhou.aliyuncs.com/vimniky/asean-ui:v0.0.8
     ports:
       - 3001:3001
     labels:
