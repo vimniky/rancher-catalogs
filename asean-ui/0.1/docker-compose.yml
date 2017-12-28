@@ -8,7 +8,3 @@ services:
       - 3001:3001
     labels:
       io.rancher.container.pull_image: always
-    extra_hosts:
-      - "rancher-server:{{  .Values.RANCHER_SERVER_IP }}"
-      - "alert-server:{{  .Values.RANCHER_ALERT_IP }}"
-      - "harbor-server:{{  .Values.RANCHER_HARBOR_IP }}"
