@@ -3,8 +3,9 @@ services:
   asean-ui:
     tty: true
     stdin_open: true
-    image: registry.cn-hangzhou.aliyuncs.com/vimniky/asean-ui:v.0.0.5
+    image: registry.cn-hangzhou.aliyuncs.com/vimniky/asean-ui:v0.0.6
     ports:
-      - 3006:3001
+      - 3001:3001
     labels:
       io.rancher.container.pull_image: always
+      

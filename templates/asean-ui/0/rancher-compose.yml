@@ -24,7 +24,7 @@
   - variable: "ALERT_PORT"
     label: "Alert Port"
     description: "Alert Manager Port"
-    default: ""
+    default: "8888"
     required: true
     type: "string"
   - variable: "HARBOR_IP"
