@@ -53,7 +53,7 @@ asean-ui:
   metadata:
     rancher_ip: ${RANCHER_SERVER_IP}
     rancher_port: ${RANCHER_SERVER_PORT}
-    alert_ip: ${ALERT_SERVER_IP}
-    alert_port: ${ALERT_SERVER_PORT}
+    alert_ip: ${ALERT_IP}
+    alert_port: ${ALERT_PORT}
     harbor_ip: ${HARBOR_IP}
     harbor_port: ${HARBOR_PORT}
