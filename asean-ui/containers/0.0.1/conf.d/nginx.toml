@@ -1,0 +1,12 @@
+# [template]
+# src = "fluent.tmpl"
+# dest = "/fluentd/etc/fluent-generated.conf"
+# keys = [
+#   "/self",
+# ]
+[template]
+src = "nginx.conf"
+dest = "/etc/nginx/nginx.conf"
+keys = [
+  "/self",
+]
