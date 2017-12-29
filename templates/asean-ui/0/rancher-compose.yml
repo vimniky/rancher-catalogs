@@ -36,12 +36,12 @@
     type: "string"
   - variable: "KIBANA_URL"
     label: "Kibana URL"
-    description: "Your native kibana ui URL"
+    description: " URL that link to Your native kibana ui"
     required: true
     type: "string"
   - variable: "GRAFANA_URL"
-    label: "Grafana Port"
-    description: "Your native grafana ui URL"
+    label: "Grafana Url"
+    description: " URL that link to Your native grafana ui"
     required: true
     type: "string"
 
