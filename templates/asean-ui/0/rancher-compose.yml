@@ -1,7 +1,7 @@
 .catalog:
   name: "Asean UI"
-  version: "0.0.1"
-  description: "Asean dependencies"
+  version: "v0.1.0"
+  description: "Deploy Asean UI the easy way"
   questions:
   - variable: "RANCHER_SERVER_IP"
     label: "Rancher Server IP"
@@ -11,31 +11,26 @@
     type: "string"
   - variable: "RANCHER_SERVER_PORT"
     label: "Rancher Server PORT"
-    description: ""
     default: "8080"
     required: true
     type: "string"
   - variable: "ALERT_IP"
     label: "Alert IP Address"
-    description: "Alert manager IP address"
     default: ""
     required: true
     type: "string"
   - variable: "ALERT_PORT"
     label: "Alert Port"
-    description: "Alert Manager Port"
     default: "8888"
     required: true
     type: "string"
   - variable: "HARBOR_IP"
     label: "Harbor IP Address"
-    description: "Harbor IP address"
     default: ""
     required: true
     type: "string"
   - variable: "HARBOR_PORT"
     label: "Harbor Port"
-    description: "Harbor server Port"
     default: "80"
     required: true
     type: "string"
